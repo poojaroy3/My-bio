@@ -1,0 +1,77 @@
+header {
+  padding: 5px;
+  text-align: center;
+  color: red;
+  font-size: 40px;
+  text-shadow: 5px 5px 7px blue;
+}
+
+ul {
+  list-style: none;
+  padding: 0%;
+  margin-left: 1rem;
+  overflow: hidden;
+  background-color: #333;
+  width: 330px;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  background-color: lawngreen;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: navajowhite;
+  text-transform: uppercase;
+}
+li a:hover {
+  background-color: navy;
+}
+.active {
+  background-color: #04aa6d;
+}
+.container {
+  position: -webkit-sticky;
+  width: 1290px;
+  height: 200px;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  box-shadow: 20px 20px 50px rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(20px);
+  background-blend-mode: darken;
+  border-radius: 2rem;
+  border-style: dotted groove;
+  border-color: white;
+}
+.container .about {
+  color: whitesmoke;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container .Skills {
+  margin: 20px 30px 30px 30px;
+  font-size: 30px;
+  font-style: normal;
+  color: whitesmoke;
+}
+.skill {
+  margin: 30px 30px;
+  font-size: 25px;
+  color: whitesmoke;
+}
+body {
+  background-color: #1c1b1c;
+  margin: 0;
+  position: relative;
+}
+.copyright {
+  text-shadow: 2px 2px 5px blue;
+  color: red;
+  font-style: italic;
+  font-size: larger;
+  margin-top: 10px;
+  text-align: center;
+}
